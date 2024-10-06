@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125%;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #202124;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #202124;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #202124;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #135bb5;
+    }
+
+#result_js {
+    margin-top: 20px;
+    color: #202124;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi tampilan */
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Mengatur lebar kontainer */
+    text-align: center; /* Memusatkan teks */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #202124;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Mengatur tombol dalam kolom */
+    gap: 15px; /* Menambahkan jarak antar tombol */
+}
+
+.btn {
+    padding: 10px 15px; /* Menambahkan padding pada tombol */
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    font-size: 16px; /* Ukuran font tombol */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.btn:hover {
+    background-color: #135bb5; /* Mengubah warna saat hover */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4; /* Warna latar belakang */
+    display: flex;
+    justify-content: center; /* Memusatkan konten horizontal */
+    align-items: center; /* Memusatkan konten vertical */
+    height: 100vh; /* Mengatur tinggi tampilan */
+}
+
+.form-container {
+    background-color: white; /* Warna latar belakang kontainer */
+    padding: 20px; /* Padding di dalam kontainer */
+    border-radius: 10px; /* Membuat sudut kontainer melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+    width: 400px; /* Lebar kontainer */
+    text-align: center; /* Memusatkan teks dalam kontainer */
+}
+
+h2 {
+    margin-bottom: 20px; /* Jarak bawah judul */
+    color: #202124; /* Warna teks */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Jarak bawah untuk setiap grup form */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 8px; /* Jarak bawah label */
+    font-size: 14px; /* Ukuran font label */
+    color: #202124; /* Warna teks label */
+}
+
+input[type="text"], 
+input[type="date"],
+input[type="email"] { /* Menambahkan input email */
+    width: 100%; /* Lebar penuh */
+    padding: 8px; /* Padding dalam input */
+    border: 1px solid #dadce0; /* Border input */
+    border-radius: 4px; /* Sudut input melengkung */
+    font-size: 14px; /* Ukuran font input */
+    color: #202124; /* Warna teks input */
+}
+
+.radio-group {
+    display: flex; /* Menampilkan pilihan radio dalam satu baris */
+    flex-direction: column; /* Mengatur ke arah kolom */
+}
+
+.button-container {
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column; /* Mengatur tombol dalam kolom */
+    gap: 15px; /* Jarak antar tombol */
+    margin-top: 20px; /* Jarak atas untuk button-container */
+}
+
+.btn {
+    padding: 10px 15px; /* Padding dalam tombol */
+    background-color: #1a73e8; /* Warna latar belakang tombol */
+    border: none; /* Tanpa border */
+    color: white; /* Warna teks tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    border-radius: 5px; /* Sudut tombol melengkung */
+    cursor: pointer; /* Menunjukkan pointer saat hover */
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.btn:hover {
+    background-color: #135bb5; /* Mengubah warna latar belakang saat hover */
+}
+
+#result_js {
+    margin-top: 20px; /* Jarak atas untuk hasil */
+    color: #202124; /* Warna teks hasil */
+    font-size: 14px; /* Ukuran font hasil */
+}
