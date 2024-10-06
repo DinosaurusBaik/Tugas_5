@@ -1,4 +1,4 @@
-﻿# Tugas 6 Pemrograman Web
+﻿# Tugas 5 Pemrograman Web
 
 ### Daniel Bintang W. Sitorus - 140810230048
 Repository ini berisi tugas pembuatan aplikasi input data mahasiswa yang mencakup fitur **insert**, **update**, **delete**, dan **tampil data** dalam bentuk tabel. Setiap data mahasiswa memiliki NPM, nama, alamat, tanggal lahir, jenis kelamin, dan email. Data tersebut disimpan dalam database MySQL dengan tabel `identitas`.
